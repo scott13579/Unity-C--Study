@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # This .gitignore file should be placed at the root of your Unity project directory
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
@@ -70,3 +71,30 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+=======
+# Unity related directories
+Library/
+Temp/
+obj/
+Build/
+Builds/
+Logs/
+UserSettings/
+
+# Visual Studio related files
+.vs/
+*.csproj
+*.sln
+*.user
+
+# IDE settings files
+.idea/
+.DS_Store
+*.DotSettings.user
+
+# Git LFS trackable files
+*.psd
+*.fbx
+*.png
+*.png
+>>>>>>> 6dc3761 (Initial commit)
